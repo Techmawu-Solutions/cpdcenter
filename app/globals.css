@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #0f6b3f;
+  --color-brand-dark: #0a5230;
+  --color-brand-soft: #e7f3ec;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: #f6f7f5;
+  color: #1c2321;
+}
+
+select,
+input,
+button {
+  font: inherit;
+}
